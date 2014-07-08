@@ -8,6 +8,7 @@ gem 'rmagick'
 gem 'hpricot'
 gem 'oai'
 gem 'capistrano'
+gem 'capistrano-rvm'
 
 gem 'mysql'
 
