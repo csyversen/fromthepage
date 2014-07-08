@@ -36,3 +36,4 @@ mongo.log
 
 tags
 
+config/database.yml
