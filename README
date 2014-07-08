@@ -27,6 +27,9 @@ gem install -v 2.3.15 rails
 Install Graphviz
 apt-get install graphviz (or see the graphviz documentation at http://www.graphviz.org/)
 
+On OSX you'll need to install ghostscript using homebrew (simple captcha uses this)
+brew install ghostscript
+
 Configure MySQL
 Create a database and user account for FromThePage to use.
 
@@ -42,4 +45,4 @@ Then update the config/database.yml file to point to the MySQL user account and 
 
 Finally, run
 rake db:migrate
-to load the schema definition into the database account. 
+to load the schema definition into the database account.

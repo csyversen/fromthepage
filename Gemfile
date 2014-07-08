@@ -1,5 +1,6 @@
-source :gemcutter
-gem "rails", "~> 2.3.17"
+source 'https://rubygems.org'
+
+gem "rails", "~> 2.3.18"
 #gem "sqlite3-ruby", :require => "sqlite3"
 
 gem 'will_paginate' , '~> 2'
@@ -19,6 +20,8 @@ group :development do
   # bundler requires these gems in development
   # gem "rails-footnotes"
 	gem 'mysql2','0.2.7'
+	gem 'sqlite3'
+	gem 'capistrano-rails'
 end
 
 group :test do
@@ -32,4 +35,3 @@ group :production do
   # gem "rails-footnotes"
 #	gem 'ftools'
 end
-
