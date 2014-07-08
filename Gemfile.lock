@@ -68,7 +68,7 @@ DEPENDENCIES
   capistrano-rvm
   hpricot
   mysql
-  mysql2 (= 0.2.7)
+  mysql2
   oai
   rails (~> 2.3.18)
   rmagick
