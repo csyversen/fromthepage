@@ -11,6 +11,7 @@ gem 'capistrano'
 gem 'capistrano-rvm'
 
 gem 'mysql'
+gem 'mysql2'
 
 
 # bundler requires these gems in all environments
