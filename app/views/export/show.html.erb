@@ -5,15 +5,12 @@
 	FromThePage export of <%= @work.title %> from <%= @collection.title %> made on <%= Time.now %>.
 </div>
 
-<h3 class="divider">
-  Page Transcripts
-</h3>
 
 <div class="pages">
   <% @work.pages.each do |page| %>
 	<div id="page-<%=page.id%>">
 		<div class="page-content">
-			<%= xml_to_html(page.xml_text, true, true)%>
+			<%= xml_to_html(page.xml_text, true, false)%>
 		</div>
 	</div>
   <% end %>
