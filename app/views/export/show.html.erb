@@ -10,7 +10,7 @@
   <% @work.pages.each do |page| %>
 	<div id="page-<%=page.id%>">
 		<div class="page-content">
-			<%= xml_to_html(page.xml_text, true, true)%>
+			<%= xml_to_html_export(page.xml_text, true, true)%>
 		</div>
 	</div>
   <% end %>
