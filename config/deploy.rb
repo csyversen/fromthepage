@@ -32,7 +32,7 @@ set :linked_files, %w{config/database.yml}
 # set :default_env, { path: "/opt/ruby/bin:$PATH" }
 
 # Default value for keep_releases is 5
-set :keep_releases, 5
+set :keep_releases, 10
 
 namespace :deploy do
 
